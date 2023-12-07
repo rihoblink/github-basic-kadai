@@ -1,0 +1,36 @@
+User@Surface-Laptop2 MINGW64 ~
+$ cd "C:\Users\User\Desktop\lesson\kadai1"
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1
+$ mkdir git_challenge
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1
+$ cd "C:\Users\User\Desktop\lesson\kadai1\git_challenge"
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/User/Desktop/lesson/kadai1/git_challenge/.git/
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1/git_challenge (main)
+$ git add "C:\Users\User\Desktop\lesson\kadai1\git_challenge\hello_world.txt.txt"
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) eca36ca] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt.txt
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1/git_challenge (main)
+$ git add "C:\Users\User\Desktop\lesson\kadai1\git_challenge\hello_world.txt.txt"
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1/git_challenge (main)
+$ git commit -m "日本語訳を追記"                                                [main b3172f2] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1/git_challenge (main)
+$ git log --oneline
+b3172f2 (HEAD -> main) 日本語訳を追記
+eca36ca hello_world.txtを追加
+
+User@Surface-Laptop2 MINGW64 ~/Desktop/lesson/kadai1/git_challenge (main)
+$
